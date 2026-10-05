@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico' },
-      { url: '/DigiMarket favicon.png', type: 'image/png' },
+      { url: '/Glossy_Digital_D_Shopping_Logo.png', type: 'image/png' },
     ],
     shortcut: '/favicon.ico',
-    apple: '/DigiMarket favicon.png',
+    apple: '/Glossy_Digital_D_Shopping_Logo.png',
   },
 };
 
@@ -24,8 +24,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/DigiMarket%20favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/DigiMarket%20favicon.png" />
+        <link rel="icon" href="/Glossy_Digital_D_Shopping_Logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/Glossy_Digital_D_Shopping_Logo.png" />
       </head>
       <body className="antialiased selection:bg-[#D97757] selection:text-white">
         <ShopProvider>
