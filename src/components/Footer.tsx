@@ -70,26 +70,26 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* HELP Column */}
+          {/* HELP & SUPPORT Column */}
           <div>
             <h4 className="font-heading text-xs font-extrabold uppercase tracking-widest text-[#D5A84C] mb-4">
               HELP & SUPPORT
             </h4>
             <ul className="space-y-2.5 text-xs text-white/80">
               <li>
-                <Link href="/account" className="hover:text-white transition-colors">Contact Support</Link>
+                <Link href="/support/contact" className="hover:text-white transition-colors">Contact Support</Link>
               </li>
               <li>
-                <Link href="/account" className="hover:text-white transition-colors">FAQ & License Help</Link>
+                <Link href="/support/faq" className="hover:text-white transition-colors">FAQ & License Help</Link>
               </li>
               <li>
-                <Link href="/account" className="hover:text-white transition-colors">Instant Delivery Policy</Link>
+                <Link href="/support/delivery-policy" className="hover:text-white transition-colors">Instant Delivery Policy</Link>
               </li>
               <li>
-                <Link href="/account" className="hover:text-white transition-colors">Refund & Replacement Guarantee</Link>
+                <Link href="/support/refund-guarantee" className="hover:text-white transition-colors">Refund & Replacement Guarantee</Link>
               </li>
               <li>
-                <Link href="/account" className="hover:text-white transition-colors">License Activation Guide</Link>
+                <Link href="/support/activation-guide" className="hover:text-white transition-colors">License Activation Guide</Link>
               </li>
             </ul>
           </div>
@@ -113,7 +113,10 @@ export const Footer: React.FC = () => {
                 <Link href="/account" className="hover:text-white transition-colors">My License Keys</Link>
               </li>
               <li>
-                <Link href="/wishlist" className="hover:text-white transition-colors">Wishlist</Link>
+                <Link href="/legal/privacy" className="hover:text-white transition-colors text-gray-300">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link href="/legal/terms" className="hover:text-white transition-colors text-gray-300">Terms & Conditions</Link>
               </li>
             </ul>
           </div>
