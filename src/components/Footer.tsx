@@ -107,9 +107,6 @@ export const Footer: React.FC = () => {
                 <Link href="/account" className="hover:text-white transition-colors">Order History</Link>
               </li>
               <li>
-                <Link href="/account" className="hover:text-white transition-colors">Digital Downloads</Link>
-              </li>
-              <li>
                 <Link href="/account" className="hover:text-white transition-colors">My License Keys</Link>
               </li>
               <li>
